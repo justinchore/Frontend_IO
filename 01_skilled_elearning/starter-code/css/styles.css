@@ -61,7 +61,8 @@
   margin-top: 12rem;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  row-gap: 2rem;
+  row-gap: 4rem;
+  column-gap: 2rem;
 }
 
 .info-icon {
@@ -70,13 +71,23 @@
 }
 
 .title-card {
+  background: linear-gradient(to top, #f74780, 70%, rgb(255, 85, 0));
+}
+
+.info-title-text {
+  color: #fff;
+}
+
+.card {
+  border-radius: 11px;
 }
 
 .info-card {
   display: flex;
   flex-direction: column;
   gap: 2.4rem;
-  border: solid b;
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+  background-color: #fff;
 }
 
 .paragraph-info {
