@@ -4,7 +4,7 @@
   justify-content: space-between;
   align-items: center;
   padding-top: 2rem;
-  margin-bottom: 20rem;
+  margin-bottom: 14rem;
   /* background-color: red; */
 }
 
@@ -57,20 +57,28 @@
 }
 
 /*INFO CARDS*/
+
 .company-info {
-  margin-top: 12rem;
+  margin-top: 14rem;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   row-gap: 4rem;
-  column-gap: 2rem;
+  column-gap: 2.4rem;
 }
 
 .info-card-container {
-  padding: 2rem 1rem;
-  padding-right: 5.6rem;
+  position: relative;
+  padding-top: 4rem;
+  padding-left: 2rem;
+  padding-bottom: 5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
 }
 
 .info-icon {
+  position: absolute;
+  top: -15%;
   height: 4.4rem;
   width: 4.4rem;
 }
@@ -82,13 +90,13 @@
 .info-title-text {
   color: #fff;
   font-size: 1.6rem;
-  padding-top: 4rem;
-  padding-left: 2rem;
-  padding-right: 4rem;
 }
 
 .card {
   border-radius: 11px;
+}
+
+.info-card-title {
 }
 
 .info-card {
@@ -100,5 +108,9 @@
 }
 
 .paragraph-info {
-  align-self: start;
+  line-height: 1.5;
+  display: inline-block;
+  width: 75%;
+  color: #83869a;
+  font-size: 1.2rem;
 }
