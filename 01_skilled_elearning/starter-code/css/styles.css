@@ -65,6 +65,11 @@
   column-gap: 2rem;
 }
 
+.info-card-container {
+  padding: 2rem 1rem;
+  padding-right: 5.6rem;
+}
+
 .info-icon {
   height: 4.4rem;
   width: 4.4rem;
@@ -76,6 +81,10 @@
 
 .info-title-text {
   color: #fff;
+  font-size: 1.6rem;
+  padding-top: 4rem;
+  padding-left: 2rem;
+  padding-right: 4rem;
 }
 
 .card {
