@@ -55,3 +55,25 @@
   top: -15%;
   left: 55%;
 }
+
+/*INFO CARDS*/
+.company-info {
+  margin-top: 12rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 2rem;
+}
+
+.info-icon {
+  height: 4.4rem;
+  width: 4.4rem;
+}
+
+.title-card {
+}
+
+.info-card {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
