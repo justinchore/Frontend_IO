@@ -25,6 +25,7 @@
   grid-template-columns: 1fr 1fr 1fr; */
 }
 .hero-left-container {
+  position: relative;
   margin-right: 64rem;
   display: flex;
   flex-direction: column;
@@ -50,16 +51,16 @@
 }
 
 .hero-img {
-  height: 70rem;
+  height: 65rem;
   position: absolute;
-  top: -15%;
+  top: -5%;
   left: 55%;
 }
 
 /*INFO CARDS*/
 
 .company-info {
-  margin-top: 14rem;
+  margin-top: 18rem;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   row-gap: 4rem;
@@ -78,7 +79,7 @@
 
 .info-icon {
   position: absolute;
-  top: -15%;
+  top: -10%;
   height: 4.4rem;
   width: 4.4rem;
 }
