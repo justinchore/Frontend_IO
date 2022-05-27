@@ -62,19 +62,19 @@
 .company-info {
   margin-top: 18rem;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(3, fit-content(28%));
   row-gap: 4rem;
   column-gap: 2.4rem;
 }
 
 .info-card-container {
   position: relative;
-  padding-top: 4rem;
+  padding-top: 4.8rem;
   padding-left: 2rem;
   padding-bottom: 5rem;
   display: flex;
   flex-direction: column;
-  gap: 2.4rem;
+  gap: 3.2rem;
 }
 
 .info-icon {
@@ -91,6 +91,8 @@
 .info-title-text {
   color: #fff;
   font-size: 1.6rem;
+  padding-top: 4.8rem;
+  padding-left: 2rem;
 }
 
 .card {
@@ -98,6 +100,7 @@
 }
 
 .info-card-title {
+  font-size: 1.4rem;
 }
 
 .info-card {
