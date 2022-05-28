@@ -21,11 +21,11 @@
 
 /*HERO SECTION*/
 .hero {
+  position: relative;
   /* display: grid;
   grid-template-columns: 1fr 1fr 1fr; */
 }
 .hero-left-container {
-  position: relative;
   margin-right: 64rem;
   display: flex;
   flex-direction: column;
@@ -51,10 +51,10 @@
 }
 
 .hero-img {
-  height: 65rem;
+  height: 60rem;
   position: absolute;
   top: -5%;
-  left: 55%;
+  left: 50%;
 }
 
 /*INFO CARDS*/
@@ -62,7 +62,7 @@
 .company-info {
   margin-top: 18rem;
   display: grid;
-  grid-template-columns: repeat(3, fit-content(28%));
+  grid-template-columns: repeat(3, fit-content(25%));
   row-gap: 4rem;
   column-gap: 2.4rem;
 }
