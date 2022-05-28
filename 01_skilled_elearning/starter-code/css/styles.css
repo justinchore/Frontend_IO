@@ -21,7 +21,6 @@
 
 /*HERO SECTION*/
 .hero {
-  position: relative;
   /* display: grid;
   grid-template-columns: 1fr 1fr 1fr; */
 }
@@ -34,6 +33,7 @@
 }
 
 .hero-header {
+  letter-spacing: 1.2;
   font-size: 3.6rem;
   font-weight: 600;
 }
@@ -51,10 +51,10 @@
 }
 
 .hero-img {
-  height: 60rem;
+  height: 70rem;
   position: absolute;
-  top: -5%;
-  left: 50%;
+  top: -10%;
+  left: 55%;
 }
 
 /*INFO CARDS*/
@@ -62,13 +62,28 @@
 .company-info {
   margin-top: 18rem;
   display: grid;
-  grid-template-columns: repeat(3, fit-content(25%));
+  grid-template-columns: repeat(3, fit-content(30%));
   row-gap: 4rem;
-  column-gap: 2.4rem;
+  column-gap: 3.4rem;
+}
+
+.info-card {
+  gap: 2.4rem;
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+  background-color: #fff;
+  position: relative;
+}
+
+.info-cards-link:link,
+.info-cards-link:visited {
+  position: absolute;
+  text-decoration: none;
+  top: 85%;
+  color: #f74780;
+  font-weight: 500;
 }
 
 .info-card-container {
-  position: relative;
   padding-top: 4.8rem;
   padding-left: 2rem;
   padding-bottom: 5rem;
@@ -103,24 +118,12 @@
   font-size: 1.4rem;
 }
 
-.info-card {
-  gap: 2.4rem;
-  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
-  background-color: #fff;
-}
-
 .paragraph-info {
   line-height: 1.5;
   width: 75%;
   color: #83869a;
   font-size: 1.2rem;
-}
-
-.info-cards-link {
-  position: absolute;
-  flex-direction: column;
-  text-decoration: none;
-  top: 90%;
+  padding-bottom: 2rem;
 }
 
 /*Try using max-length for grid cells!*/
