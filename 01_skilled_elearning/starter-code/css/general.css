@@ -39,7 +39,7 @@ html {
 
 body {
   max-width: 960px;
-  margin: 0 auto !important;
+  margin: 0 auto;
   background: linear-gradient(to top, #cccef8, 10%, #fff);
   background-size: cover;
 }
