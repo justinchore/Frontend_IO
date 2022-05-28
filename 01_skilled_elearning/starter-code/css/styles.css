@@ -60,11 +60,21 @@
 /*INFO CARDS*/
 
 .company-info {
-  margin-top: 18rem;
+  margin: 18rem auto;
   display: grid;
   grid-template-columns: repeat(3, fit-content(30%));
+  justify-content: center;
   row-gap: 4rem;
   column-gap: 3.4rem;
+}
+
+.info-card-container {
+  padding-top: 4.8rem;
+  padding-left: 2rem;
+  padding-bottom: 5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
 }
 
 .info-card {
@@ -81,15 +91,6 @@
   top: 85%;
   color: #f74780;
   font-weight: 500;
-}
-
-.info-card-container {
-  padding-top: 4.8rem;
-  padding-left: 2rem;
-  padding-bottom: 5rem;
-  display: flex;
-  flex-direction: column;
-  gap: 3.2rem;
 }
 
 .info-icon {
