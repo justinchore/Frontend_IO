@@ -113,11 +113,17 @@
 
 .paragraph-info {
   line-height: 1.5;
-  display: inline-block;
+  /* display: inline-block; */
   width: 75%;
   color: #83869a;
   font-size: 1.2rem;
 }
 
 .info-cards-link {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: #f74780;
+  font-weight: 500;
+  justify-content: flex-end;
 }
