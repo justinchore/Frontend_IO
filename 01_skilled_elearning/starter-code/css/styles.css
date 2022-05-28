@@ -104,8 +104,6 @@
 }
 
 .info-card {
-  display: flex;
-  flex-direction: column;
   gap: 2.4rem;
   box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
   background-color: #fff;
@@ -113,17 +111,14 @@
 
 .paragraph-info {
   line-height: 1.5;
-  /* display: inline-block; */
   width: 75%;
   color: #83869a;
   font-size: 1.2rem;
 }
 
 .info-cards-link {
-  display: flex;
+  position: absolute;
   flex-direction: column;
   text-decoration: none;
-  color: #f74780;
-  font-weight: 500;
-  justify-content: flex-end;
+  top: 90%;
 }
