@@ -58,6 +58,11 @@
   background: linear-gradient(to top, #f74780, 70%, rgb(255, 85, 0));
 }
 
+.btn-hero:hover,
+.btn-hero:active {
+  background: linear-gradient(to top, #fa91b3, 70%, #ff884d);
+}
+
 .hero-img {
   height: 70rem;
   position: absolute;
