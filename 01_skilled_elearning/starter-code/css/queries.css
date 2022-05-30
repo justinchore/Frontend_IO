@@ -65,3 +65,24 @@
     width: 80%;
   }
 }
+
+@media (max-width: 37em) {
+  body,
+  .footer-container {
+    max-width: 450px;
+  }
+
+  .hero-left-container {
+    margin-right: 20rem;
+  }
+
+  .hero-img-tablet {
+    height: 50rem;
+    top: 0%;
+    left: 50%;
+  }
+
+  .company-info {
+    margin-top: 8rem;
+  }
+}
