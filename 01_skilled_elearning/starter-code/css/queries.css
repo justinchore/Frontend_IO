@@ -38,9 +38,21 @@
 
   .company-info {
     grid-template-columns: repeat(2, fit-content(45%));
-    column-gap: 2.4rem;
+    column-gap: 1.4rem;
   }
 
   .info-card-container {
+    gap: 2.8rem;
+  }
+
+  .info-cards-link:link,
+  .info-cards-link:visited {
+    font-weight: 600;
+    font-size: 1.2rem;
+  }
+
+  .paragraph-info {
+    line-height: 2rem;
+    width: 80%;
   }
 }
