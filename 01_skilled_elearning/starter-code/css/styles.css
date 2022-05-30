@@ -161,3 +161,18 @@
 .footer-header {
   color: #fff;
 }
+
+.btn-footer {
+  background: linear-gradient(to top, #f74780, 35%, #2f09ac);
+  color: #fff;
+}
+
+.btn-footer:hover,
+.btn-footer:active {
+  background: linear-gradient(
+    to top,
+    hsl(341, 92%, 80%),
+    35%,
+    hsl(254, 90%, 80%)
+  );
+}
