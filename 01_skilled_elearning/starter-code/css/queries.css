@@ -17,6 +17,7 @@
   .hero-img {
     height: 60rem;
   }
+
   .footer-container {
     max-width: 800px;
   }
@@ -33,8 +34,15 @@
   }
 
   .hero-img {
-    left: 45%;
-    top: -12%;
+    display: none;
+  }
+
+  .hero-img-tablet {
+    display: block;
+    height: 60rem;
+    position: absolute;
+    top: -10%;
+    left: 55%;
   }
 
   .company-info {

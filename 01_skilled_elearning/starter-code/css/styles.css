@@ -67,6 +67,10 @@
   left: 55%;
 }
 
+.hero-img-tablet {
+  display: none;
+}
+
 /*INFO CARDS*/
 
 .company-info {
