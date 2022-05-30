@@ -3,17 +3,35 @@
 /****************************/
 @media (max-width: 60em) {
   body {
-    max-width: 900px;
+    max-width: 800px;
   }
 
   .hero-header {
     font-size: 3rem;
   }
 
+  .hero-left-container {
+    margin-right: 50rem;
+  }
+
   .hero-img {
     height: 60rem;
   }
   .footer-container {
-    max-width: 900px;
+    max-width: 800px;
+  }
+}
+
+@media (max-width: 48em) {
+  body {
+    max-width: 650px;
+  }
+
+  .hero-left-container {
+    margin-right: 35rem;
+  }
+
+  .hero-img {
+    left: 45%;
   }
 }
