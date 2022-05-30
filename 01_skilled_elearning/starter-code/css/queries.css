@@ -23,7 +23,8 @@
 }
 
 @media (max-width: 48em) {
-  body {
+  body,
+  .footer-container {
     max-width: 650px;
   }
 
@@ -33,5 +34,13 @@
 
   .hero-img {
     left: 45%;
+  }
+
+  .company-info {
+    grid-template-columns: repeat(2, fit-content(45%));
+    column-gap: 2.4rem;
+  }
+
+  .info-card-container {
   }
 }
