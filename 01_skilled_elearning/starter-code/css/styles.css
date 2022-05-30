@@ -28,10 +28,7 @@
 }
 
 /*HERO SECTION*/
-.hero {
-  /* display: grid;
-  grid-template-columns: 1fr 1fr 1fr; */
-}
+
 .hero-left-container {
   margin-right: 64rem;
   display: flex;
