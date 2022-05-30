@@ -50,4 +50,7 @@ body {
   padding: 1rem 2rem;
   border-radius: 20px;
   border: none;
+  cursor: pointer;
+  z-index: 999;
+  transition: all 0.2s;
 }
