@@ -91,4 +91,13 @@
   .hero-img-tablet {
     display: none;
   }
+
+  .hero-left-container {
+    margin-right: 0;
+  }
+
+  body,
+  .footer-container {
+    max-width: 300px;
+  }
 }
