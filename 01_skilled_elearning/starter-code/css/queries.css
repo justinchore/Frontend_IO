@@ -100,4 +100,8 @@
   .footer-container {
     max-width: 300px;
   }
+
+  .nav {
+    margin-bottom: 4rem;
+  }
 }

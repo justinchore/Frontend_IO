@@ -71,6 +71,11 @@
   display: none;
 }
 
+.hero-img-mobile {
+  height: 40rem;
+  display: none;
+}
+
 /*INFO CARDS*/
 
 .company-info {
