@@ -86,3 +86,9 @@
     margin-top: 8rem;
   }
 }
+
+@media (max-width: 400px) {
+  .hero-img-tablet {
+    display: none;
+  }
+}
