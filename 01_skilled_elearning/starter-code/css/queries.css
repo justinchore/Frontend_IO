@@ -119,4 +119,12 @@
     padding: 2rem;
     padding-right: 4rem;
   }
+
+  .info-card-container {
+    gap: 1.2rem;
+  }
+
+  .paragraph-info {
+    padding-bottom: 1rem;
+  }
 }
