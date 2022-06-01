@@ -104,4 +104,12 @@
   .nav {
     margin-bottom: 4rem;
   }
+
+  .hero-img-mobile {
+    display: block;
+  }
+
+  .company-info {
+    margin-top: 2rem;
+  }
 }

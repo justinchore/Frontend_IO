@@ -72,8 +72,10 @@
 }
 
 .hero-img-mobile {
-  height: 40rem;
   display: none;
+  margin-top: 2rem;
+  height: 30rem;
+  text-align: center;
 }
 
 /*INFO CARDS*/
