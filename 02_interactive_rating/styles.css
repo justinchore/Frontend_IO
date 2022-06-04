@@ -59,3 +59,11 @@ body {
   gap: 1.2rem;
   padding: 1.2rem;
 }
+
+.img-container {
+}
+
+img {
+  height: 2rem;
+  width: 2rem;
+}
