@@ -10,7 +10,7 @@
 // 2. Submit Btn
 
 let userRating = 0;
-const ratings = document.getElementsByClassName('btn rating-btn');
+const ratings = [...document.getElementsByClassName('btn rating-btn')];
 
 console.log(ratings);
 
@@ -28,5 +28,9 @@ document.addEventListener('click', e => {
 });
 
 const resetChosenRating = () => {
-  console.log('reset');
+  ratings.forEach(r => {
+    if (r.classList.contains('chosen-rating')) {
+      r.classList.remove('chosen-rating');
+    }
+  });
 };
