@@ -76,12 +76,12 @@ img {
 .secondary-heading {
   color: #fff;
   font-weight: 400;
-  font-size: 3.2rem;
+  font-size: 2.8rem;
   letter-spacing: 0.05;
 }
 
 .paragraph-info {
-  color: hsl(216, 12%, 54%);
+  color: hsl(217, 12%, 63%);
   font-size: 1.4rem;
   line-height: 1.5;
 }
@@ -110,10 +110,21 @@ img {
   align-items: center;
   border-radius: 50%;
   background-color: hsl(217, 20%, 25%);
-  color: hsl(216, 12%, 54%);
+  color: hsl(217, 12%, 63%);
   height: 5rem;
   width: 5rem;
   padding: 0.2rem;
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+.rating-btn:hover {
+  background: hsl(217, 12%, 63%);
+  color: #fff;
+}
+
+.rating-btn:active {
+  background: hsl(25, 97%, 53%);
 }
 
 .submit-btn {
@@ -123,4 +134,11 @@ img {
   background: hsl(25, 97%, 53%);
   color: #fff;
   font-family: inherit;
+  letter-spacing: 0.3rem;
+  font-size: 1.4rem;
+}
+
+.submit-btn:active {
+  background: #fff;
+  color: hsl(25, 97%, 53%);
 }
