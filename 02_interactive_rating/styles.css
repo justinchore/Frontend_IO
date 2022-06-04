@@ -42,6 +42,7 @@ html {
 
 body {
   font-family: 'Overpass', sans-serif;
+  background-color: black;
 }
 
 .flex-center-container {
@@ -63,13 +64,13 @@ body {
 }
 
 img {
-  height: 3rem;
-  width: 3rem;
+  height: 5rem;
+  width: 5rem;
   border-radius: 50%;
-  border: 1px solid hsl(216, 12%, 54%);
-  padding: 0.6rem;
+  border: 1px solid hsl(213, 19%, 18%);
+  padding: 1.5rem;
   margin-bottom: 1.2rem;
-  background: hsl(216, 12%, 54%);
+  background: hsl(217, 20%, 25%);
 }
 
 .secondary-heading {
@@ -97,15 +98,21 @@ img {
   padding: 1rem 2rem;
   margin: 0;
   text-decoration: none;
+  font-family: 'Overpass', sans-serif;
   cursor: pointer;
   text-align: center;
   transition: all 0.3s;
 }
 
 .rating-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border-radius: 50%;
-  height: 4rem;
-  width: 4rem;
+  background-color: hsl(217, 20%, 25%);
+  color: hsl(216, 12%, 54%);
+  height: 5rem;
+  width: 5rem;
   padding: 0.2rem;
 }
 
