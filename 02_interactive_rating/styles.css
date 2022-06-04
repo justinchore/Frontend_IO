@@ -45,6 +45,10 @@ body {
   background-color: black;
 }
 
+.hidden {
+  display: none;
+}
+
 .flex-center-container {
   background-color: hsl(213, 19%, 18%);
   position: absolute;

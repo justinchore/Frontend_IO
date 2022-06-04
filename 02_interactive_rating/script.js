@@ -16,15 +16,20 @@ console.log(ratings);
 
 document.addEventListener('click', e => {
   e.preventDefault();
-  if (!e.target.classList.contains('rating-btn')) {
-    return;
+  if (e.target.classList.contains('rating-btn')) {
+    //Update userRating
+    userRating = e.target.innerHTML;
+
+    //Reset Rating list
+    resetChosenRating();
+
+    //Toggle Chosen Color
+    e.target.classList.toggle('chosen-rating');
+  } else if (e.target.classList.contains('submit-btn')) {
+    console.log('submit Button!');
   }
 
-  //Update userRating
-  userRating = e.target.innerHTML;
-  //Reset Rating list
-  resetChosenRating();
-  e.target.classList.toggle('chosen-rating');
+  return;
 });
 
 const resetChosenRating = () => {
