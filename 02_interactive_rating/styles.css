@@ -45,12 +45,14 @@ body {
 }
 
 .flex-center-container {
+  background-color: hsl(213, 19%, 18%);
   position: absolute;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
   border: solid black 1px;
-  max-width: 38rem;
+  border-radius: 4rem;
+  max-width: 40rem;
 }
 
 .modal-container {
@@ -64,17 +66,23 @@ img {
   height: 3rem;
   width: 3rem;
   border-radius: 50%;
-  border: 1px solid black;
+  border: 1px solid hsl(216, 12%, 54%);
   padding: 0.6rem;
   margin-bottom: 1.2rem;
+  background: hsl(216, 12%, 54%);
 }
 
 .secondary-heading {
-  font-size: 2.4rem;
+  color: #fff;
+  font-weight: 400;
+  font-size: 3.2rem;
+  letter-spacing: 0.05;
 }
 
 .paragraph-info {
-  font-size: 1.2rem;
+  color: hsl(216, 12%, 54%);
+  font-size: 1.4rem;
+  line-height: 1.5;
 }
 
 .form-container {
@@ -102,5 +110,10 @@ img {
 }
 
 .submit-btn {
-  margin-top: 1.8rem;
+  margin-top: 1.2rem;
+  text-transform: uppercase;
+  border-radius: 4rem;
+  background: hsl(25, 97%, 53%);
+  color: #fff;
+  font-family: inherit;
 }
