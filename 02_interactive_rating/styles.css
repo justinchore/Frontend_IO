@@ -50,14 +50,14 @@ body {
   top: 50%;
   transform: translate(-50%, -50%);
   border: solid black 1px;
-  max-width: 45rem;
+  max-width: 35rem;
 }
 
 .modal-container {
   display: flex;
   flex-direction: column;
-  gap: 1.2rem;
-  padding: 1.2rem;
+  gap: 1.4rem;
+  padding: 2rem;
 }
 
 img {
@@ -66,4 +66,31 @@ img {
   border-radius: 50%;
   border: 1px solid black;
   padding: 0.6rem;
+  margin-bottom: 1.2rem;
+}
+
+.secondary-heading {
+  font-size: 2.4rem;
+}
+
+.paragraph-info {
+  font-size: 1.2rem;
+}
+
+.form-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.rating-btn {
+   background-color:
+
+  border-radius: 50%;
+  height: 4rem;
+  width: 4rem;
+  padding: 0.2rem;
+}
+
+.submit-btn {
+
 }
