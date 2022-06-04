@@ -127,6 +127,10 @@ img {
   background: hsl(25, 97%, 53%);
 }
 
+.chosen-rating {
+  background: hsl(25, 97%, 53%);
+}
+
 .submit-btn {
   margin-top: 1.2rem;
   text-transform: uppercase;
