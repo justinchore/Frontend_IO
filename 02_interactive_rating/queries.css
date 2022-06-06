@@ -36,4 +36,32 @@
     font-size: 1.2rem;
     margin-bottom: 1.2rem;
   }
+
+  /**************/
+  .img-container {
+    margin-top: 1rem;
+  }
+
+  .thank-you-img {
+    height: 10rem;
+    width: 14rem;
+    margin: 0 6rem;
+  }
+
+  .rating-msg-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+  }
+
+  .thank-you-title {
+    margin-top: 1rem;
+  }
+
+  .rating-msg {
+    margin-top: 0.2rem;
+    font-size: 1rem;
+    background-color: hsl(217, 20%, 25%);
+  }
 }
