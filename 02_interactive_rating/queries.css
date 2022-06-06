@@ -1,6 +1,33 @@
-@media (max-width: 550px) {
-   .flex-center-container {
+@media (max-width: 34em) {
+  .flex-center-container {
     max-width: 327px;
-   }
-   .
+  }
+  .modal-container {
+    padding: 1.2rem;
+  }
+  .rating-star-img {
+    height: 3rem;
+    width: 3rem;
+    padding: 0.9rem;
+    margin-bottom: 0.5rem;
+    border: 0.2px solid hsl(213, 19%, 18%);
+    margin-top: 1rem;
+  }
+  .secondary-heading {
+    font-size: 2rem;
+  }
+  .paragraph-info {
+    font-size: 1.2rem;
+    line-height: 1.7;
+  }
+
+  .form-container {
+    gap: 1.5rem;
+  }
+
+  .rating-btn {
+    height: 4rem;
+    width: 4rem;
+    font-size: 1rem;
+  }
 }
