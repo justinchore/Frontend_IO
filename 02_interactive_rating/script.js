@@ -34,9 +34,6 @@ document.addEventListener('click', e => {
     //Toggle Chosen Color
     e.target.classList.toggle('chosen-rating');
   } else if (e.target.classList.contains('submit-btn')) {
-    console.log('submit Button!');
-    console.log(ratingElement);
-    console.log(ratingContainer);
     ratingElement.innerHTML = userRating;
     ratingContainer.classList.add('hidden');
     thankYouContainer.classList.remove('hidden');
