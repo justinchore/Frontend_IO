@@ -157,8 +157,19 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 2rem;
 }
 .thank-you-img {
   height: 12rem;
   width: 18rem;
+}
+/* 
+.rating-msg-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+.rating-msg {
+  text-align: center;
+  font-size: 1.4rem;
 }
