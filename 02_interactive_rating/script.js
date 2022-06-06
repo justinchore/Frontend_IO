@@ -14,8 +14,11 @@
 
 let userRating = 0;
 const ratings = [...document.getElementsByClassName('btn rating-btn')];
-const ratingElement = document.getElementById('rating');
-const ratingContainer = document.getElementsByClassName(rating - container);
+const ratingElement = document.getElementById('rating-insert');
+const ratingContainer = document.getElementsByClassName('rating-container')[0];
+const thankYouContainer = document.getElementsByClassName(
+  'thank-you-container'
+)[0];
 
 console.log(ratings);
 
@@ -32,7 +35,11 @@ document.addEventListener('click', e => {
     e.target.classList.toggle('chosen-rating');
   } else if (e.target.classList.contains('submit-btn')) {
     console.log('submit Button!');
+    console.log(ratingElement);
+    console.log(ratingContainer);
     ratingElement.innerHTML = userRating;
+    ratingContainer.classList.add('hidden');
+    thankYouContainer.classList.remove('hidden');
   }
 
   return;
