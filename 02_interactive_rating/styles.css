@@ -153,7 +153,11 @@ body {
 }
 
 /************/
-
+.img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .thank-you-img {
   height: 12rem;
   width: 18rem;
