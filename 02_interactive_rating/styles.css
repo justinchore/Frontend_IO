@@ -67,7 +67,7 @@ body {
   padding: 3rem;
 }
 
-img {
+.rating-star-img {
   height: 5rem;
   width: 5rem;
   border-radius: 50%;
@@ -150,4 +150,11 @@ img {
 .submit-btn:active {
   background: #fff;
   color: hsl(25, 97%, 53%);
+}
+
+/************/
+
+.thank-you-img {
+  height: 12rem;
+  width: 18rem;
 }
