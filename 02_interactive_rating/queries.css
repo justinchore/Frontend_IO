@@ -3,7 +3,7 @@
     max-width: 327px;
   }
   .modal-container {
-    padding: 1.2rem;
+    padding: 1.8rem;
   }
   .rating-star-img {
     height: 3rem;
@@ -17,11 +17,12 @@
     font-size: 2rem;
   }
   .paragraph-info {
-    font-size: 1.2rem;
-    line-height: 1.7;
+    font-size: 1.25rem;
+    line-height: 1.6;
   }
 
   .form-container {
+    margin-top: 0.5rem;
     gap: 1.5rem;
   }
 
@@ -29,5 +30,9 @@
     height: 4rem;
     width: 4rem;
     font-size: 1rem;
+  }
+
+  .submit-btn {
+    font-size: 1.2rem;
   }
 }
