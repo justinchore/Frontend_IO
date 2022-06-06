@@ -34,7 +34,7 @@
     </style>
   </head>
   <body>
-    <div class="flex-center-container hidden">
+    <div class="flex-center-container rating-container hidden">
       <div class="modal-container">
         <img
           src="./images/icon-star.svg"
@@ -59,7 +59,7 @@
     </div>
     <!-- Rating state end -->
     <!-- Thank you state start -->
-    <div class="flex-center-container">
+    <div class="flex-center-container thank-you-container">
       <div class="modal-container">
         <div class="img-container">
           <img
@@ -69,7 +69,9 @@
           />
         </div>
         <div class="rating-msg-container">
-          <p class="rating-msg">You selected 4 out of 5</p>
+          <p class="rating-msg">
+            You selected <span id="rating-insert"></span> out of 5
+          </p>
         </div>
 
         <h2 class="secondary-heading thank-you-title">Thank you!</h2>
