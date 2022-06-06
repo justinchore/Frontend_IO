@@ -22,7 +22,7 @@
   }
 
   .form-container {
-    margin-top: 0.5rem;
+    margin-top: 0.2rem;
     gap: 1.5rem;
   }
 
@@ -34,5 +34,6 @@
 
   .submit-btn {
     font-size: 1.2rem;
+    margin-bottom: 1.2rem;
   }
 }
