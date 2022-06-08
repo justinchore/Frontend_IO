@@ -29,14 +29,16 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   background-color: #fff;
-  border-radius: 8%;
+  border-radius: 10%;
+}
+
+.qr-flex-container {
 }
 
 .qr-png {
-  padding: 1rem 0rem;
   height: 30rem;
   width: 28rem;
-  border-radius: 8%;
+  border-radius: 10%;
 }
 
 .heading {
