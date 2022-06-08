@@ -28,11 +28,11 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   background-color: #fff;
-  border-radius: 10%;
+  border-radius: 14px;
 }
 
 .qr-flex-container {
-  padding: 1rem;
+  padding-top: 1.4rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -44,19 +44,22 @@ body {
 .qr-png {
   height: 30rem;
   width: 28rem;
-  border-radius: 10%;
+  border-radius: 14px;
 }
 
 .heading {
   font-size: 2rem;
-  letter-spacing: 1.2;
+  letter-spacing: 0.6px;
   font-weight: 700;
-  margin: 0 1.8rem;
+  margin: 0 2rem;
   color: #1f314f;
 }
 
 .caption {
-  margin: 0 1.8rem;
-  line-height: 1.2;
+  margin: 0 2rem;
+  letter-spacing: 1.2;
+  line-height: 1.8;
+  color: #7d889e;
   font-size: 1.2rem;
+  margin-bottom: 2rem;
 }
