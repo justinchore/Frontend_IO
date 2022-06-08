@@ -1,0 +1,17 @@
+/*
+background color: #D5E1EF
+caption color: #7D889E
+title color: #1F314F;
+main: #2C7DFA
+shade: #1F314F;
+*/
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
