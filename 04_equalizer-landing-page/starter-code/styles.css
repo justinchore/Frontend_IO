@@ -27,6 +27,7 @@ body {
   font-weight: 500;
   max-width: 930px;
   margin: 0 auto !important;
+  background-image: url('./assets/bg-main-desktop.png');
 }
 
 .header {
