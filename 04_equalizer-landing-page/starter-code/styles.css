@@ -86,13 +86,14 @@ body {
 .app-illustration {
   position: absolute;
   height: 50rem;
-  top: 50%;
-  left: 50%;
-  transform: translate(0, 0);
+  top: 0%;
+  left: 0%;
+  transform: translate(30%, -30%);
 }
 
 .pattern-2 {
+  height: 40rem;
   position: relative;
   top: -10%;
-  left: 20%;
+  left: 26.5%;
 }
