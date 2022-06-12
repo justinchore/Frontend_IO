@@ -48,12 +48,13 @@ body {
 
 .hero-title {
   font-weight: 600;
-  font-size: 8rem;
+  font-size: 7rem;
   letter-spacing: 0.5px;
 }
 
 .hero-paragraph {
-  font-size: 1.4rem;
+  margin-top: 2rem;
+  font-size: 1.6rem;
   line-height: 2;
   font-weight: 400;
 }
