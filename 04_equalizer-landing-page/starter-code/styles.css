@@ -155,4 +155,5 @@ body {
 .btn-icon {
   height: 1.4rem;
   width: 1.4rem;
+  vertical-align: middle;
 }
