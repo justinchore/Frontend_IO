@@ -158,6 +158,11 @@ body {
   position: absolute;
 }
 
+.apple-icon {
+  left: 28%;
+  top: 26%;
+}
+
 .android-icon {
-  left: 24%;
+  left: 23%;
 }
