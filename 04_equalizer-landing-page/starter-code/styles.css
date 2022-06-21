@@ -155,5 +155,9 @@ body {
 .btn-icon {
   height: 1.4rem;
   width: 1.4rem;
-  vertical-align: middle;
+  position: absolute;
+}
+
+.android-icon {
+  left: 24%;
 }
