@@ -106,9 +106,10 @@ body {
   background-color: #fa7453;
   display: flex;
   flex-direction: column;
-  padding: 3.2rem;
+  padding: 4rem;
+  padding-bottom: 2rem;
   gap: 2rem;
-  border-radius: 12px;
+  border-radius: 10px;
 }
 
 .card-title {
@@ -119,7 +120,7 @@ body {
 
 .card-paragraph {
   font-size: 1.2rem;
-  line-height: 2rem;
+  line-height: 2;
   font-weight: 400;
   color: #fcfaf9;
 }
@@ -130,15 +131,15 @@ body {
 }
 
 .dollars {
-  font-size: 2.4rem;
+  font-size: 3.4rem;
 }
 
 .btn {
   text-decoration: none;
-  border-radius: 14px;
+  border-radius: 5px;
   border: none;
   padding: 1rem 2rem;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   font-weight: 600;
   background-color: none;
   display: flex;
@@ -150,6 +151,7 @@ body {
 .btn-apple {
   background: #191826;
   color: #fcfaf9;
+  margin-top: 2rem;
 }
 
 .btn-icon {
@@ -159,7 +161,7 @@ body {
 }
 
 .apple-icon {
-  left: 28%;
+  left: 18%;
   top: 26%;
 }
 
