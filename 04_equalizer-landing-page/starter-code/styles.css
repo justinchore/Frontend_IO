@@ -88,21 +88,21 @@ body {
   height: 50rem;
   top: 0%;
   left: 0%;
-  transform: translate(30%, -30%);
+  transform: translate(40%, -30%);
 }
 
 .pattern-2 {
   height: 40rem;
   position: relative;
   top: -10%;
-  left: 26.8%;
+  left: 29.4%;
 }
 
 .info-card {
   position: absolute;
-  width: 40%;
+  width: 30%;
   top: 15%;
-  left: 50%;
+  left: 51%;
   background-color: #fa7453;
   display: flex;
   flex-direction: column;
