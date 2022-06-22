@@ -181,6 +181,7 @@ body {
   margin-top: 8rem;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+  margin-bottom: 4rem;
 }
 
 .footer-logo {
@@ -188,6 +189,8 @@ body {
 }
 
 .footer-contact {
+  font-weight: 400;
+  line-height: 1.2;
 }
 
 .social-media-links {
