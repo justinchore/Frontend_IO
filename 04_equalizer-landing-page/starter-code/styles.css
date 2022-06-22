@@ -189,10 +189,15 @@ body {
 }
 
 .footer-contact {
+  font-size: 1rem;
   font-weight: 400;
-  line-height: 1.2;
+  line-height: 1.8;
 }
 
 .social-media-links {
-  grid-column: 4;
+  grid-column: 5;
+  display: flex;
+}
+
+.footer-logo {
 }
