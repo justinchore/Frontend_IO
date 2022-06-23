@@ -197,6 +197,7 @@ body {
 .social-media-links {
   grid-column: 5;
   display: flex;
+  justify-content: space-between;
 }
 
 .footer-logo {
