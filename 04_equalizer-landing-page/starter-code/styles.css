@@ -205,6 +205,10 @@ body {
   display: flex;
 }
 
+.footer-link:hover,
+.footer-link:active {
+}
+
 .footer-logo {
   margin-left: 1.2rem;
   height: 1.2rem;
