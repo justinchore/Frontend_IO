@@ -194,10 +194,15 @@ body {
   line-height: 1.8;
 }
 
-.social-media-links {
+.social-links-wrapper {
   grid-column: 4;
   display: flex;
+  align-items: center;
   justify-content: end;
+}
+
+.social-media-links {
+  display: flex;
 }
 
 .footer-logo {
