@@ -195,6 +195,7 @@ body {
 }
 
 .social-links-wrapper {
+  margin-top: 1rem;
   grid-column: 4;
   display: flex;
   align-items: center;
@@ -210,8 +211,8 @@ body {
 }
 
 .footer-logo {
-  height: 3rem;
-  margin-left: 1.2rem;
+  display: inline-block;
+  height: 2rem;
 }
 
 .footer-logo:hover,
