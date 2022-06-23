@@ -205,11 +205,16 @@ body {
   display: flex;
 }
 
-.footer-link:hover,
-.footer-link:active {
+.footer-link {
+  display: inline-block;
 }
 
 .footer-logo {
+  height: 3rem;
   margin-left: 1.2rem;
-  height: 1.2rem;
+}
+
+.footer-logo:hover,
+.footer-logo:active {
+  fill: red;
 }
