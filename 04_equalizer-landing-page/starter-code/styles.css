@@ -142,14 +142,11 @@ body {
   padding: 1rem 2rem;
   font-size: 1rem;
   font-weight: 600;
+  transition: all 0.3s;
   display: flex;
   align-items: center;
   justify-content: center;
   position: relative; /*Use absolute positioning for centering svgs to text*/
-}
-
-.btn:hover {
-  background: #66e2dc;
 }
 
 .button-wrapper {
@@ -167,6 +164,11 @@ body {
 .btn-apple:hover,
 .btn-apple:active {
   background: #66e2dc;
+}
+
+.btn-android:hover,
+.btn-android:active {
+  background: #ffb964;
 }
 
 .btn-icon {
