@@ -71,7 +71,6 @@ body {
 
 .hero-images-wrap {
   margin-top: 20rem;
-  z-index: -1;
   position: relative;
 }
 
@@ -96,7 +95,6 @@ body {
   position: relative;
   top: -10%;
   left: 33.5%;
-  z-index: -1;
 }
 
 .info-card {
@@ -111,6 +109,7 @@ body {
   padding-bottom: 2.8rem;
   gap: 2rem;
   border-radius: 10px;
+  z-index: 99;
 }
 
 .card-title {
@@ -146,7 +145,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  z-index: 0;
   position: relative; /*Use absolute positioning for centering svgs to text*/
 }
 
