@@ -40,17 +40,17 @@
   .app-illustration {
     height: 42rem;
     width: 20rem;
-    transform: translate(30%, -28%);
+    transform: translate(42%, -28%);
   }
 
   .pattern-2 {
-    left: 28%;
+    left: 30%;
   }
 
   .info-card {
     width: 46%;
-    top: 28%;
-    left: 30%;
+    top: 26%;
+    left: 36%;
   }
 }
 
