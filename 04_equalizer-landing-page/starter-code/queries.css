@@ -5,6 +5,17 @@
   }
 
   .hero {
+    margin-right: 16rem;
+    gap: 2rem;
+  }
+
+  .hero-title {
+    font-size: 5rem;
+    margin-right: 8rem;
+    letter-spacing: 1px;
+  }
+
+  .hero-paragraph {
   }
 }
 
