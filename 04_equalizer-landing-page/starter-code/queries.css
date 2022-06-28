@@ -16,6 +16,10 @@
   }
 
   .hero-paragraph {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    line-height: 1.8;
+    margin-right: 4rem;
   }
 }
 
