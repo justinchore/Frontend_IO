@@ -59,7 +59,11 @@
 
   .footer-logo {
     grid-row: 1;
-    margin-top: 6rem;
+    margin-top: 4rem;
+  }
+
+  .footer-links {
+    height: 2rem;
   }
 
   .footer-contact {
@@ -68,6 +72,7 @@
   }
 
   .social-links-wrapper {
+    margin-top: 0;
     grid-row: 2;
     align-items: center;
     justify-content: end;
