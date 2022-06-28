@@ -30,7 +30,15 @@
   }
 
   .hero-images-wrap {
-    margin-top: 24rem;
+    margin-top: 20rem;
+  }
+
+  .app-illustration {
+    height: 42rem;
+    transform: translate(30%, -28%);
+  }
+
+  .pattern-2 {
   }
 }
 
