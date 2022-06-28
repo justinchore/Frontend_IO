@@ -52,6 +52,26 @@
     top: 26%;
     left: 36%;
   }
+
+  .footer {
+    row-gap: 4rem;
+  }
+
+  .footer-logo {
+    grid-row: 1;
+    margin-top: 6rem;
+  }
+
+  .footer-contact {
+    grid-column: 1 / span 2;
+    grid-row: 2;
+  }
+
+  .social-links-wrapper {
+    grid-row: 2;
+    align-items: center;
+    justify-content: end;
+  }
 }
 
 /*******MOBILE******/
