@@ -1,3 +1,11 @@
 /*******TABLET******/
+@media (max-width: 48em) {
+  body {
+    max-width: 700px;
+  }
+
+  .hero {
+  }
+}
 
 /*******MOBILE******/
