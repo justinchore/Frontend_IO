@@ -21,6 +21,13 @@
     line-height: 1.8;
     margin-right: 4rem;
   }
+
+  .pattern-1 {
+    height: 32rem;
+    width: 24rem;
+    top: -2;
+    left: 72%;
+  }
 }
 
 /*******MOBILE******/
