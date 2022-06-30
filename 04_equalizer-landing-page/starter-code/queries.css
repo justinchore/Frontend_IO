@@ -127,11 +127,16 @@
   }
 
   .app-illustration {
-    display: none;
+    height: 32rem;
+    width: 15rem;
+    transform: translate(50%, -24%);
   }
 
   .pattern-2 {
-    height: 20rem;
+    height: 32rem;
+    top: 0;
+    left: 0;
+    transform: translate(18%, 0);
   }
 
   .info-card {
