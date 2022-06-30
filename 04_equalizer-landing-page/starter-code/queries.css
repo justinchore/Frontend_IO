@@ -123,6 +123,7 @@
 
   .hero-images {
     height: 30rem;
+    z-index: 1;
   }
 
   .app-illustration {
@@ -134,12 +135,19 @@
   }
 
   .info-card {
-    display: none;
+    width: 100%;
+    top: 94%;
+    left: 0;
+    padding: 3rem 2rem;
   }
 
-  .info-card-mobile {
-    background-color: #fa7453;
-    margin-top: 0;
-    border-radius: 14px;
+  .card-paragraph {
+    font-size: 1.2rem;
+    font-weight: 200;
+  }
+
+  .btn {
+    padding: 1.4rem 2rem;
+    font-size: 1.2rem;
   }
 }
