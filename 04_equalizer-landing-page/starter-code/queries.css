@@ -92,17 +92,20 @@
   }
 
   .hero {
+    margin-top: 6rem;
     margin-right: 0;
   }
 
   .hero-title {
     margin-right: 0.5rem;
-    font-size: 3rem;
+    font-size: 3.2rem;
     letter-spacing: 0;
     line-height: 1.2;
   }
 
-  .hero-pargraph {
+  .hero-paragraph {
+    margin-top: 0;
+    font-size: 1.2rem;
     margin-right: 0;
   }
 
