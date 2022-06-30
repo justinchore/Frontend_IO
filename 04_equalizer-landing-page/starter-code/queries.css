@@ -90,4 +90,8 @@
   .company-logo {
     height: 3rem;
   }
+
+  .hero {
+    margin-right: 0;
+  }
 }
