@@ -94,4 +94,16 @@
   .hero {
     margin-right: 0;
   }
+
+  .hero-title {
+    margin-right: 0;
+  }
+
+  .hero-pargraph {
+    margin-right: 0;
+  }
+
+  .pattern-1 {
+    display: none;
+  }
 }
