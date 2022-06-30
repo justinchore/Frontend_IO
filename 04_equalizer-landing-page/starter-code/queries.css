@@ -81,7 +81,7 @@
 }
 
 /*******MOBILE******/
-@media (max-width: 20em) {
+@media (max-width: 30em) {
   body {
     background-image: url('./assets/bg-main-mobile.png');
   }
@@ -127,8 +127,8 @@
   }
 
   .app-illustration {
-    height: 32rem;
-    width: 15rem;
+    height: 100%;
+    width: 30%;
     transform: translate(50%, -24%);
   }
 
