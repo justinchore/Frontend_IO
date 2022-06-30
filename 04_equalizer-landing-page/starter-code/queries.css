@@ -159,4 +159,11 @@
   .apple-icon {
     top: 34%;
   }
+
+  .footer {
+    margin-top: 38rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+  }
 }
