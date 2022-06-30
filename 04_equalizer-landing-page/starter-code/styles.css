@@ -28,6 +28,8 @@ body {
   max-width: 930px;
   margin: 0 auto !important;
   background-image: url('./assets/bg-main-desktop.png');
+  -webkit-background-size: cover;
+  background-size: cover;
 }
 
 .header {
