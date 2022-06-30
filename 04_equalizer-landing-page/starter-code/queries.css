@@ -88,7 +88,7 @@
   }
 
   .company-logo {
-    height: 3rem;
+    height: 2.6rem;
   }
 
   .hero {
@@ -96,7 +96,10 @@
   }
 
   .hero-title {
-    margin-right: 0;
+    margin-right: 0.5rem;
+    font-size: 3rem;
+    letter-spacing: 0;
+    line-height: 1.2;
   }
 
   .hero-pargraph {
