@@ -106,3 +106,15 @@ body {
 .btn-purple:active {
   background: #d9b8ff;
 }
+
+.hero-img {
+  position: absolute;
+}
+
+.hero-img-left {
+  transform: translate(-130%, -10%);
+}
+
+.hero-img-right {
+  transform: translate(130%, 0);
+}
