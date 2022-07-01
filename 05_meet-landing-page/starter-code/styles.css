@@ -45,6 +45,7 @@ body {
   margin-top: 4rem;
   display: flex;
   justify-content: center;
+  position: relative;
 }
 
 .hero-wrapper {
@@ -55,6 +56,7 @@ body {
   gap: 4rem;
 }
 .hero-title {
+  color: #28283d;
   padding: 0 8rem;
   font-size: 6.4rem;
   line-height: 1;
