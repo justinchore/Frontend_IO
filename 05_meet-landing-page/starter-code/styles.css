@@ -1,0 +1,27 @@
+/************** GENERAL **************/
+/*
+Colors: 
+   - #4D96A9
+   - #855FB1
+   - #28283D
+   - #8FE3F9
+   - #D9B8FF
+   - #FAFAFA
+
+*/
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Red Hat Display', serif;
+  max-width: 960px;
+  margin: 0 auto !important;
+}
