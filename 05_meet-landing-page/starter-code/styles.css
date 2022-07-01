@@ -62,3 +62,28 @@ body {
 .hero-caption {
   font-size: 1.8rem;
 }
+
+.btn-wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.btn,
+.btn:visited,
+.btn:link {
+  display: inline-block;
+  text-decoration: none;
+  background: none;
+  border: none;
+  background: black;
+  color: #fff;
+  padding: 1.2rem 3rem;
+  border-radius: 20px;
+  font-weight: 700;
+  font-family: inherit;
+  transition: all 0.3s;
+}
+
+.btn-green {
+}
