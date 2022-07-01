@@ -8,6 +8,11 @@ Colors:
    - #D9B8FF
    - #FAFAFA
 
+
+Sizing: 
+   - H1 -> 64px;
+   - H2 -> 40px;   
+   - paragraph -> 18px;
 */
 
 * {
@@ -35,3 +40,25 @@ body {
 }
 
 /************** HERO **************/
+.hero {
+  margin-top: 4rem;
+  display: flex;
+  justify-content: center;
+}
+
+.hero-wrapper {
+  width: 60%;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  gap: 4rem;
+}
+.hero-title {
+  padding: 0 8rem;
+  font-size: 6.4rem;
+  line-height: 1;
+}
+
+.hero-caption {
+  font-size: 1.8rem;
+}
