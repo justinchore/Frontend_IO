@@ -7,6 +7,7 @@ Colors:
    - #8FE3F9
    - #D9B8FF
    - #FAFAFA
+   - #87879D
 
 
 Sizing: 
@@ -60,6 +61,7 @@ body {
 }
 
 .hero-caption {
+  color: #87879d;
   font-size: 1.8rem;
 }
 
@@ -86,4 +88,19 @@ body {
 }
 
 .btn-green {
+  background: #4d96a9;
+}
+
+.btn-purple {
+  background: #855fb1;
+}
+
+.btn-green:hover,
+.btn-green:active {
+  background: #8fe3f9;
+}
+
+.btn-purple:hover,
+.btn-purple:active {
+  background: #d9b8ff;
 }
