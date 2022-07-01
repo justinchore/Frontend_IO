@@ -25,3 +25,11 @@ body {
   max-width: 960px;
   margin: 0 auto !important;
 }
+
+/************** HEADER **************/
+.header {
+  margin-top: 6rem;
+  display: flex;
+  justify-content: center;
+  height: 2.4rem;
+}
