@@ -123,21 +123,27 @@ body {
 .icon {
   margin-top: 12rem;
   display: flex;
-  position: relative;
   justify-content: center;
 }
 
 .icon-line {
   position: absolute;
-  border-left: 1px solid black;
+  height: 6rem;
+  border-left: 0.2px solid #aeaebcd7;
+  transform: translate(30%, -100%);
 }
 
 .icon-circle {
-  border: 1px solid black;
-  height: 2.5rem;
-  width: 2.5rem;
+  position: relative;
+  border: 0.2px solid #aeaebcd7;
+  height: 3rem;
+  width: 3rem;
   border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.icon-number {
+  color: #87879d;
 }
