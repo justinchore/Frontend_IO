@@ -118,3 +118,26 @@ body {
 .hero-img-right {
   transform: translate(130%, 0);
 }
+
+/************** NUMBER ICON **************/
+.icon {
+  margin-top: 12rem;
+  display: flex;
+  position: relative;
+  justify-content: center;
+}
+
+.icon-line {
+  position: absolute;
+  border-left: 1px solid black;
+}
+
+.icon-circle {
+  border: 1px solid black;
+  height: 2.5rem;
+  width: 2.5rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
