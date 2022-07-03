@@ -178,3 +178,12 @@ body {
   flex-direction: column;
   gap: 2rem;
 }
+
+.about-heading {
+  text-transform: uppercase;
+  letter-spacing: 0.18rem;
+  color: #4d96a9;
+}
+
+.about-title {
+}
