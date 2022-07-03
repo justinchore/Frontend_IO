@@ -171,7 +171,7 @@ body {
 }
 
 .about-wrapper {
-  width: 40%;
+  width: 50%;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -187,7 +187,10 @@ body {
 .about-title {
   font-size: 3.6rem;
   color: #28283d;
+  margin: 0 5rem;
 }
 
 .about-paragraph {
+  font-size: 1.6rem;
+  color: #87879d;
 }
