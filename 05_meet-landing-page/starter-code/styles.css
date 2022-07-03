@@ -163,3 +163,13 @@ body {
   border-radius: 8px;
   box-shadow: 0 1px 5px hsl(0, 0%, 0%, 0.2);
 }
+
+/**************ABOUT**************/
+.about {
+  display: flex;
+  justify-content: center;
+}
+
+.about-wrapper {
+  width: 40%;
+}
