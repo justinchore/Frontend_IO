@@ -166,10 +166,15 @@ body {
 
 /**************ABOUT**************/
 .about {
+  margin-top: 4rem;
   display: flex;
   justify-content: center;
 }
 
 .about-wrapper {
   width: 40%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
 }
