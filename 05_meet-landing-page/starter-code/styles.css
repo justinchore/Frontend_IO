@@ -196,14 +196,20 @@ body {
 }
 
 /**************FOOTER**************/
-.footer {
-  margin-top: 14rem;
-  margin-left: 6rem;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
 
+.footer-wrapper {
+  margin-top: 14rem;
+}
+.footer {
+  background-image: url('assets/desktop/image-footer.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 22rem;
+  background-size: cover;
+  background-color: #4d96a9;
+  background-blend-mode: soft-light;
   position: relative;
+  display: grid;
 }
 
 .icon-02 {
@@ -216,8 +222,10 @@ body {
 }
 
 .footer-paragraph {
-  font-size: 1.6rem;
+  color: #fff;
+  font-size: 1.4rem;
 }
 
 .btn-footer {
+  font-size: 1rem;
 }
