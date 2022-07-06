@@ -195,6 +195,21 @@ body {
   color: #87879d;
 }
 
-.icon-02 {
+/**************FOOTER**************/
+.footer {
   margin-top: 12rem;
+  display: flex;
+  align-items: center;
+  background-image: url('assets/desktop/image-footer.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 22rem;
+  background-size: cover;
+  background-color: #4d96a9;
+  background-blend-mode: soft-light;
+  position: relative;
+}
+
+.icon-02 {
+  position: absolute;
 }
