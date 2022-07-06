@@ -199,6 +199,7 @@ body {
 .footer {
   margin-top: 12rem;
   display: flex;
+  justify-content: space-between;
   align-items: center;
   background-image: url('assets/desktop/image-footer.jpg');
   background-repeat: no-repeat;
@@ -212,4 +213,15 @@ body {
 
 .icon-02 {
   position: absolute;
+}
+
+.footer-title {
+  font-size: 3rem;
+}
+
+.footer-paragraph {
+  font-size: 1.6rem;
+}
+
+.btn-footer {
 }
