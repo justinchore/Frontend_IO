@@ -165,7 +165,7 @@ body {
 
 /**************ABOUT**************/
 .about {
-  margin-top: 4rem;
+  margin-top: 6rem;
   display: flex;
   justify-content: center;
 }
@@ -197,16 +197,16 @@ body {
 
 /**************FOOTER**************/
 .footer {
-  margin-top: 12rem;
+  margin-top: 14rem;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   background-image: url('assets/desktop/image-footer.jpg');
   background-repeat: no-repeat;
   background-position: center;
   height: 22rem;
   background-size: cover;
-  background-color: #4d96a9;
+  background-color: rgb(77, 150, 169);
   background-blend-mode: soft-light;
   position: relative;
 }
