@@ -198,16 +198,11 @@ body {
 /**************FOOTER**************/
 .footer {
   margin-top: 14rem;
+  margin-left: 6rem;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-image: url('assets/desktop/image-footer.jpg');
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 22rem;
-  background-size: cover;
-  background-color: rgb(77, 150, 169);
-  background-blend-mode: soft-light;
+
   position: relative;
 }
 
@@ -216,7 +211,8 @@ body {
 }
 
 .footer-title {
-  font-size: 3rem;
+  font-size: 2rem;
+  margin-left: 6rem;
 }
 
 .footer-paragraph {
