@@ -234,7 +234,14 @@ body {
   font-size: 1.4rem;
 }
 
+.btn-container {
+  display: flex;
+  justify-content: center;
+}
+
 .btn-footer {
   width: 50%;
   font-size: 1rem;
+  background-color: #855fb1;
+  color: #fff;
 }
