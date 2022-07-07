@@ -28,6 +28,9 @@ html {
 
 body {
   font-family: 'Red Hat Display', serif;
+}
+
+.max-width-wrapper {
   max-width: 960px;
   margin: 0 auto !important;
 }
@@ -199,6 +202,7 @@ body {
 
 .footer-wrapper {
   margin-top: 14rem;
+  width: 100%;
 }
 .footer {
   background-image: url('assets/desktop/image-footer.jpg');
