@@ -252,6 +252,9 @@ body {
 }
 
 .icon-02 {
+  margin-top: 5rem;
+  position: absolute;
+  transform: translate(30%, -200%);
 }
 
 .icon-line-2 {
