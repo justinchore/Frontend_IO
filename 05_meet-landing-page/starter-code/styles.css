@@ -221,10 +221,6 @@ body {
   align-content: center;
 }
 
-.icon-02 {
-  position: absolute;
-}
-
 .footer-title {
   font-size: 2rem;
   margin-left: 6rem;
@@ -253,4 +249,8 @@ body {
   font-size: 1rem;
   background-color: #855fb1;
   color: #fff;
+}
+
+.icon-02 {
+  position: absolute;
 }
