@@ -252,5 +252,23 @@ body {
 }
 
 .icon-02 {
-  position: absolute;
+}
+
+.icon-line-2 {
+  transform: translate(0%, 0%);
+}
+
+.icon-circle {
+  border: 0.2px solid #aeaebcd7;
+  height: 3.2rem;
+  width: 3.2rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-number {
+  color: #28283d;
+  font-size: 0.8rem;
 }
