@@ -259,11 +259,12 @@ body {
 .icon-02 {
   margin-top: 5rem;
   position: absolute;
-  transform: translate(30%, -200%);
+  left: 50%;
+  transform: translate(0%, -200%);
 }
 
 .icon-line-2 {
-  transform: translate(0%, 0%);
+  transform: translate(0%, -120%);
 }
 
 .icon-circle {
