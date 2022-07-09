@@ -251,6 +251,11 @@ body {
   color: #fff;
 }
 
+.btn-footer:hover,
+.btn-footer:active {
+  background-color: #d9b8ff;
+}
+
 .icon-02 {
   margin-top: 5rem;
   position: absolute;
