@@ -264,7 +264,7 @@ body {
 }
 
 .icon-line-2 {
-  transform: translate(0%, -120%);
+  transform: translate(0%, -100%);
 }
 
 .icon-circle {
@@ -275,6 +275,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #fff;
 }
 
 .icon-number {
